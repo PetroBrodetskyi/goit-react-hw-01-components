@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Profile from '../src/components/profile.jsx';
-import user from '../src/components/user.json';
-import { App } from '../src/components/App.jsx';
+import Profile from './components/Profile/Profile.jsx';
+import user from './components/user.json';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className="App">
-      <App />
       <Profile
         username={user.username}
         tag={user.tag}

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Profile.css"
 
 const Profile = ({ username, tag, location, avatar, stats }) => (
   <div className="profile">
@@ -14,15 +15,15 @@ const Profile = ({ username, tag, location, avatar, stats }) => (
     </div>
 
     <ul className="stats">
-      <li>
+      <li className="stats-flex">
         <span className="label">Followers</span>
         <span className="quantity">{stats.followers}</span>
       </li>
-      <li>
+      <li className="stats-flex">
         <span className="label">Views</span>
         <span className="quantity">{stats.views}</span>
       </li>
-      <li>
+      <li className="stats-flex">
         <span className="label">Likes</span>
         <span className="quantity">{stats.likes}</span>
       </li>
