@@ -31,7 +31,7 @@ ol {
   gap: 20px;
 }
 
-.stats-flex {
+.statsflex {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
