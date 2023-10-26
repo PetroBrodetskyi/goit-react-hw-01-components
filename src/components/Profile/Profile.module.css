@@ -1,9 +1,3 @@
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-
 .profile {
   display: flex;
   flex-direction: column;
