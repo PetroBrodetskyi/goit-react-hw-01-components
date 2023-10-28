@@ -25,8 +25,14 @@
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.statli:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 .statlabel {
+  color: rgba(8, 8, 8, 0.726);
   font-weight: 600;
 }
