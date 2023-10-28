@@ -1,0 +1,32 @@
+.statistics {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.statlist {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.statli {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.statlabel {
+  font-weight: 600;
+}
