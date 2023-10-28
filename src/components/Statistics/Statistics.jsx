@@ -12,6 +12,7 @@ const generateRandomColor = () => {
 
 const Statistics = ({ stats }) => (
   <section className={css.statistics}>
+    <h2 className={css.title}>Upload stats</h2>
     <ul className={css.statlist}>
       {stats.map(stat => (
         <li className={css.statli} key={stat.id} style={{ backgroundColor: generateRandomColor() }}>
@@ -22,5 +23,7 @@ const Statistics = ({ stats }) => (
     </ul>
   </section>
 );
+
+
 
 export default Statistics;

@@ -2,10 +2,19 @@
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   padding: 20px;
   background-color: rgb(209, 209, 209);
   border-radius: 10px;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: rgba(8, 8, 8, 0.726);
+  margin: 0 0 20px 0;
 }
 
 .statlist {
@@ -26,6 +35,19 @@
   border-radius: 10px;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
   cursor: pointer;
+  transform: translateY(20px);
+  animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .statli:hover {

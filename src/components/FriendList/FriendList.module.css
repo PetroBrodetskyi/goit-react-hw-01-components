@@ -1,0 +1,27 @@
+.friendlist {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.friendstitle {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: rgba(8, 8, 8, 0.726);
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
