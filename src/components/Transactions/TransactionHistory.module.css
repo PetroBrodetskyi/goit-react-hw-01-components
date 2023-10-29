@@ -1,0 +1,58 @@
+.transaction {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.storytitle {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: rgba(8, 8, 8, 0.726);
+  margin: 0 0 20px 0;
+}
+
+.transtable {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.transtable th {
+  padding: 8px;
+  width: 33.33%;
+}
+
+.transstory {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.transstory td {
+  padding: 8px 8px 8px 16px;
+  width: 33.33%;
+}
+
+.transstory tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.transstory tr:nth-child(even) {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+.transamount {
+  text-align: center;
+}
+
+.transcurrensy {
+  text-align: center;
+}
