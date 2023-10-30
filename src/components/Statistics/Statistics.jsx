@@ -10,9 +10,9 @@ const generateRandomColor = () => {
   return color;
 };
 
-const Statistics = ({ stats }) => (
+const Statistics = ({ title, stats }) => (
   <section className={css.statistics}>
-    <h2 className={css.title}>Upload stats</h2>
+    {title && <h2 className={css.title}>{title}</h2>}
     <ul className={css.statlist}>
       {stats.map(stat => (
         <li className={css.statli} key={stat.id} style={{ backgroundColor: generateRandomColor() }}>
